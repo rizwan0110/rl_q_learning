@@ -1,7 +1,7 @@
 ## WAREHOUSE ROBOT PATH OPTIMIZATION USING REINFORCEMENT LEARNING - A Q-LEARNING APPROACH
 
 # Project Overview
-This project applies **Reinforcement Learning (RL)**, specifically the **Q-Learning algorithm**, to optimize robot navigation in a warehouse environment. The system is designed to navigate a **15x15 grid-based warehouse** while avoiding obstacles and optimizing the path between pick-up and drop-off points. A **Graphical User Interface (GUI)** is implemented to allow users to define locations and visualize the robot’s movement.
+This project applies Reinforcement Learning (RL), specifically the **Q-Learning algorithm**, to optimize robot navigation in a warehouse environment. The system is designed to navigate a 15x15 grid-based warehouse while avoiding obstacles and optimizing the path between pick-up and drop-off points. A Graphical User Interface (GUI) is implemented to allow users to define locations and visualize the robot’s movement.
 
 ##  Features
 - **Q-Learning-based Path Optimization**: The robot learns the optimal route using reinforcement learning.
@@ -37,15 +37,23 @@ The model was fine-tuned with:
 ##  Installation & Setup
 ### Prerequisites
 Ensure you have Python and the required libraries installed.
+ Make sure you run 
 
 
 
 ### Running the Project
 1. Clone the repository or download this repository in your machine
 2. Open the code as folder in any code compiler. I have used VS code.
- 
-2. Run the script in the terminal: python main.py
-3. Use the GUI to set start and drop-off points and observe the robot's navigation.
+3. Run the command `pip install -r requirements.txt` in the code editor terminal. This step will install all the required libraries.
+3. Run the script in the terminal: python main.py
+4. Use the GUI to set start and drop-off points and observe the robot's navigation.
+
+On successful running of the code you could see a visualization of the grid that contains:
+
+- Grid world layout with obstacles, start, and goal states.
+- Value function for each state, representing the expected reward from each cell.
+- Optimal policy that shows the best action for each state.
+
 
 ##  Future Enhancements
 - **Scalability**: Extend to larger warehouse grids.
