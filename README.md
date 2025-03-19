@@ -48,7 +48,7 @@ Ensure you have Python and the required libraries installed.
 3. Run the script in the terminal: python main.py
 4. Use the GUI to set start and drop-off points and observe the robot's navigation.
 
-On successful running of the code you could see a visualization of the grid that contains:
+On successful running of the code you will see a visualization of the grid that contains:
 
 - Grid world layout with obstacles, start, and goal states.
 - Value function for each state, representing the expected reward from each cell.
